@@ -1,0 +1,73 @@
+/* First.css */
+
+.quiz-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .quiz-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .quiz-container h2 {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .quiz-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-container li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .quiz-container li:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+  }
+  
+  .quiz-container li.selected {
+    background-color: #d0e6ff;
+    border-color: #007bff;
+  }
+  
+  .quiz-container li.correct {
+    background-color: #d4edda;
+    border-color: #28a745;
+  }
+  
+  .quiz-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .quiz-container button:disabled {
+    background-color: #ccc;
+  }
+  
+  .quiz-container button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  
